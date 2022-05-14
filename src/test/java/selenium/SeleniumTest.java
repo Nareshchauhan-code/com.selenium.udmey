@@ -16,7 +16,7 @@ public class SeleniumTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://google.com");
+        driver.get("https://askomdch.com/");
         driver.quit();
 
     }
